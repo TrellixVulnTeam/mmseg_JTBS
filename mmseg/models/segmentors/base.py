@@ -214,7 +214,7 @@ class BaseSegmentor(BaseModule, metaclass=ABCMeta):
                     result,
                     palette=None,
                     win_name='',
-                    show=False,
+                    show=True,
                     wait_time=0,
                     out_file=None,
                     opacity=0.5):
