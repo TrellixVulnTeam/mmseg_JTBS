@@ -104,6 +104,7 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+dataset_zip
 data
 .vscode
 .idea
@@ -117,3 +118,5 @@ mmseg/.mim
 
 # Pytorch
 *.pth
+
+.DS_Store
