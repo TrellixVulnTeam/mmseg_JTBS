@@ -1,6 +1,6 @@
 <div align="center">
   <img src="resources/mmseg-logo.png" width="600"/>
-  <div>&nbsp;</div>
+  <div> </div>
   <div align="center">
     <b><font size="5">OpenMMLab 官网</font></b>
     <sup>
@@ -8,7 +8,7 @@
         <i><font size="4">HOT</font></i>
       </a>
     </sup>
-    &nbsp;&nbsp;&nbsp;&nbsp;
+        
     <b><font size="5">OpenMMLab 开放平台</font></b>
     <sup>
       <a href="https://platform.openmmlab.com">
@@ -16,7 +16,7 @@
       </a>
     </sup>
   </div>
-  <div>&nbsp;</div>
+  <div> </div>
 </div>
 <br />
 
@@ -46,15 +46,12 @@ MMSegmentation 是一个基于 PyTorch 的语义分割开源工具箱。它是 O
 - **统一的基准平台**
 
   我们将各种各样的语义分割算法集成到了一个统一的工具箱，进行基准测试。
-
 - **模块化设计**
 
   MMSegmentation 将分割框架解耦成不同的模块组件，通过组合不同的模块组件，用户可以便捷地构建自定义的分割模型。
-
 - **丰富的即插即用的算法和模型**
 
   MMSegmentation 支持了众多主流的和最新的检测算法，例如 PSPNet，DeepLabV3，PSANet，DeepLabV3+ 等.
-
 - **速度快**
 
   训练速度比其他语义分割代码库更快或者相当。
@@ -74,70 +71,70 @@ MMSegmentation 是一个基于 PyTorch 的语义分割开源工具箱。它是 O
 
 已支持的骨干网络：
 
-- [x] ResNet (CVPR'2016)
-- [x] ResNeXt (CVPR'2017)
-- [x] [HRNet (CVPR'2019)](configs/hrnet)
-- [x] [ResNeSt (ArXiv'2020)](configs/resnest)
-- [x] [MobileNetV2 (CVPR'2018)](configs/mobilenet_v2)
-- [x] [MobileNetV3 (ICCV'2019)](configs/mobilenet_v3)
-- [x] [Vision Transformer (ICLR'2021)](configs/vit)
-- [x] [Swin Transformer (ICCV'2021)](configs/swin)
-- [x] [Twins (NeurIPS'2021)](configs/twins)
+- [X]  ResNet (CVPR'2016)
+- [X]  ResNeXt (CVPR'2017)
+- [X]  [HRNet (CVPR'2019)](configs/hrnet)
+- [X]  [ResNeSt (ArXiv'2020)](configs/resnest)
+- [X]  [MobileNetV2 (CVPR'2018)](configs/mobilenet_v2)
+- [X]  [MobileNetV3 (ICCV'2019)](configs/mobilenet_v3)
+- [X]  [Vision Transformer (ICLR'2021)](configs/vit)
+- [X]  [Swin Transformer (ICCV'2021)](configs/swin)
+- [X]  [Twins (NeurIPS'2021)](configs/twins)
 
 已支持的算法：
 
-- [x] [FCN (CVPR'2015/TPAMI'2017)](configs/fcn)
-- [x] [ERFNet (T-ITS'2017)](configs/erfnet)
-- [x] [UNet (MICCAI'2016/Nat. Methods'2019)](configs/unet)
-- [x] [PSPNet (CVPR'2017)](configs/pspnet)
-- [x] [DeepLabV3 (ArXiv'2017)](configs/deeplabv3)
-- [x] [BiSeNetV1 (ECCV'2018)](configs/bisenetv1)
-- [x] [PSANet (ECCV'2018)](configs/psanet)
-- [x] [DeepLabV3+ (CVPR'2018)](configs/deeplabv3plus)
-- [x] [UPerNet (ECCV'2018)](configs/upernet)
-- [x] [ICNet (ECCV'2018)](configs/icnet)
-- [x] [NonLocal Net (CVPR'2018)](configs/nonlocal_net)
-- [x] [EncNet (CVPR'2018)](configs/encnet)
-- [x] [Semantic FPN (CVPR'2019)](configs/sem_fpn)
-- [x] [DANet (CVPR'2019)](configs/danet)
-- [x] [APCNet (CVPR'2019)](configs/apcnet)
-- [x] [EMANet (ICCV'2019)](configs/emanet)
-- [x] [CCNet (ICCV'2019)](configs/ccnet)
-- [x] [DMNet (ICCV'2019)](configs/dmnet)
-- [x] [ANN (ICCV'2019)](configs/ann)
-- [x] [GCNet (ICCVW'2019/TPAMI'2020)](configs/gcnet)
-- [x] [FastFCN (ArXiv'2019)](configs/fastfcn)
-- [x] [Fast-SCNN (ArXiv'2019)](configs/fastscnn)
-- [x] [ISANet (ArXiv'2019/IJCV'2021)](configs/isanet)
-- [x] [OCRNet (ECCV'2020)](configs/ocrnet)
-- [x] [DNLNet (ECCV'2020)](configs/dnlnet)
-- [x] [PointRend (CVPR'2020)](configs/point_rend)
-- [x] [CGNet (TIP'2020)](configs/cgnet)
-- [x] [BiSeNetV2 (IJCV'2021)](configs/bisenetv2)
-- [x] [STDC (CVPR'2021)](configs/stdc)
-- [x] [SETR (CVPR'2021)](configs/setr)
-- [x] [DPT (ArXiv'2021)](configs/dpt)
-- [x] [Segmenter (ICCV'2021)](configs/segmenter)
-- [x] [SegFormer (NeurIPS'2021)](configs/segformer)
+- [X]  [FCN (CVPR'2015/TPAMI'2017)](configs/fcn)
+- [X]  [ERFNet (T-ITS'2017)](configs/erfnet)
+- [X]  [UNet (MICCAI'2016/Nat. Methods'2019)](configs/unet)
+- [X]  [PSPNet (CVPR'2017)](configs/pspnet)
+- [X]  [DeepLabV3 (ArXiv'2017)](configs/deeplabv3)
+- [X]  [BiSeNetV1 (ECCV'2018)](configs/bisenetv1)
+- [X]  [PSANet (ECCV'2018)](configs/psanet)
+- [X]  [DeepLabV3+ (CVPR'2018)](configs/deeplabv3plus)
+- [X]  [UPerNet (ECCV'2018)](configs/upernet)
+- [X]  [ICNet (ECCV'2018)](configs/icnet)
+- [X]  [NonLocal Net (CVPR'2018)](configs/nonlocal_net)
+- [X]  [EncNet (CVPR'2018)](configs/encnet)
+- [X]  [Semantic FPN (CVPR'2019)](configs/sem_fpn)
+- [X]  [DANet (CVPR'2019)](configs/danet)
+- [X]  [APCNet (CVPR'2019)](configs/apcnet)
+- [X]  [EMANet (ICCV'2019)](configs/emanet)
+- [X]  [CCNet (ICCV'2019)](configs/ccnet)
+- [X]  [DMNet (ICCV'2019)](configs/dmnet)
+- [X]  [ANN (ICCV'2019)](configs/ann)
+- [X]  [GCNet (ICCVW'2019/TPAMI'2020)](configs/gcnet)
+- [X]  [FastFCN (ArXiv'2019)](configs/fastfcn)
+- [X]  [Fast-SCNN (ArXiv'2019)](configs/fastscnn)
+- [X]  [ISANet (ArXiv'2019/IJCV'2021)](configs/isanet)
+- [X]  [OCRNet (ECCV'2020)](configs/ocrnet)
+- [X]  [DNLNet (ECCV'2020)](configs/dnlnet)
+- [X]  [PointRend (CVPR'2020)](configs/point_rend)
+- [X]  [CGNet (TIP'2020)](configs/cgnet)
+- [X]  [BiSeNetV2 (IJCV'2021)](configs/bisenetv2)
+- [X]  [STDC (CVPR'2021)](configs/stdc)
+- [X]  [SETR (CVPR'2021)](configs/setr)
+- [X]  [DPT (ArXiv'2021)](configs/dpt)
+- [X]  [Segmenter (ICCV'2021)](configs/segmenter)
+- [X]  [SegFormer (NeurIPS'2021)](configs/segformer)
 
 已支持的数据集：
 
-- [x] [Cityscapes](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#cityscapes)
-- [x] [PASCAL VOC](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#pascal-voc)
-- [x] [ADE20K](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#ade20k)
-- [x] [Pascal Context](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#pascal-context)
-- [x] [COCO-Stuff 10k](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#coco-stuff-10k)
-- [x] [COCO-Stuff 164k](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#coco-stuff-164k)
-- [x] [CHASE_DB1](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#chase-db1)
-- [x] [DRIVE](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#drive)
-- [x] [HRF](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#hrf)
-- [x] [STARE](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#stare)
-- [x] [Dark Zurich](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#dark-zurich)
-- [x] [Nighttime Driving](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#nighttime-driving)
-- [x] [LoveDA](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#loveda)
-- [x] [Potsdam](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#isprs-potsdam)
-- [x] [Vaihingen](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#isprs-vaihingen)
-- [x] [iSAID](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#isaid)
+- [X]  [Cityscapes](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#cityscapes)
+- [X]  [PASCAL VOC](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#pascal-voc)
+- [X]  [ADE20K](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#ade20k)
+- [X]  [Pascal Context](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#pascal-context)
+- [X]  [COCO-Stuff 10k](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#coco-stuff-10k)
+- [X]  [COCO-Stuff 164k](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#coco-stuff-164k)
+- [X]  [CHASE_DB1](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#chase-db1)
+- [X]  [DRIVE](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#drive)
+- [X]  [HRF](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#hrf)
+- [X]  [STARE](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#stare)
+- [X]  [Dark Zurich](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#dark-zurich)
+- [X]  [Nighttime Driving](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#nighttime-driving)
+- [X]  [LoveDA](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#loveda)
+- [X]  [Potsdam](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#isprs-potsdam)
+- [X]  [Vaihingen](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#isprs-vaihingen)
+- [X]  [iSAID](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/zh_cn/dataset_prepare.md#isaid)
 
 ## 安装
 
@@ -195,13 +192,13 @@ MMSegmentation 是一个由来自不同高校和企业的研发人员共同参�
 
 ## 欢迎加入 OpenMMLab 社区
 
- 扫描下方的二维码可关注 OpenMMLab 团队的 [知乎官方账号](https://www.zhihu.com/people/openmmlab)，加入 [OpenMMLab 团队](https://jq.qq.com/?_wv=1027&k=aCvMxdr3) 以及 [MMSegmentation](https://jq.qq.com/?_wv=1027&k=ukevz6Ie) 的 QQ 群。
+扫描下方的二维码可关注 OpenMMLab 团队的 [知乎官方账号](https://www.zhihu.com/people/openmmlab)，加入 [OpenMMLab 团队](https://jq.qq.com/?_wv=1027&k=aCvMxdr3) 以及 [MMSegmentation](https://jq.qq.com/?_wv=1027&k=ukevz6Ie) 的 QQ 群。
 
- <div align="center">
+<div align="center">
  <img src="docs/zh_cn/imgs/zhihu_qrcode.jpg" height="400" />  <img src="docs/zh_cn/imgs/qq_group_qrcode.jpg" height="400" />  <img src="docs/zh_cn/imgs/seggroup_qrcode.jpg" height="400" />
  </div>
 
- 我们会在 OpenMMLab 社区为大家
+我们会在 OpenMMLab 社区为大家
 
 - 📢 分享 AI 框架的前沿核心技术
 - 💻 解读 PyTorch 常用模块源码
@@ -210,4 +207,4 @@ MMSegmentation 是一个由来自不同高校和企业的研发人员共同参�
 - 🏃 获取更高效的问题答疑和意见反馈
 - 🔥 提供与各行各业开发者充分交流的平台
 
- 干货满满 📘，等你来撩 💗，OpenMMLab 社区期待您的加入 👬
+干货满满 📘，等你来撩 💗，OpenMMLab 社区期待您的加入 👬
