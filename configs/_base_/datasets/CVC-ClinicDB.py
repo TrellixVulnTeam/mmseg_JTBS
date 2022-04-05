@@ -1,6 +1,6 @@
 # dataset settings
 dataset_type = 'CVCClinicDBDataset'
-data_root = 'data/CVC-ClinicDB'
+data_root = '../../data/CVC-ClinicDB'
 img_norm_cfg = dict(
     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
 img_scale = (384, 288)
@@ -34,8 +34,8 @@ test_pipeline = [
 ]
 
 data = dict(
-    samples_per_gpu=4,
-    workers_per_gpu=4,
+    samples_per_gpu=8,
+    workers_per_gpu=6,
     train=dict(
         type='RepeatDataset',
         times=40000,

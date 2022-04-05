@@ -119,4 +119,7 @@ mmseg/.mim
 # Pytorch
 *.pth
 
+# weight & bias
+wandb
+
 .DS_Store
