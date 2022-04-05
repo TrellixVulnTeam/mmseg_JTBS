@@ -3,7 +3,6 @@ log_config = dict(
     interval=1,
     hooks=[
         dict(type='TextLoggerHook', by_epoch=False),
-        # dict(type='TensorboardLoggerHook')
         dict(type='WandbLoggerHook', init_kwargs=dict(entity="dirtycomputer",project="mmseg"))
     ])
 # yapf:enable
