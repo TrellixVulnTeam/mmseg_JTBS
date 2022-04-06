@@ -1,6 +1,6 @@
 # yapf:disable
 log_config = dict(
-    interval=1,
+    interval=100,
     hooks=[
         dict(type='TextLoggerHook', by_epoch=False),
         dict(type='WandbLoggerHook', init_kwargs=dict(entity="dirtycomputer",project="mmseg"))
