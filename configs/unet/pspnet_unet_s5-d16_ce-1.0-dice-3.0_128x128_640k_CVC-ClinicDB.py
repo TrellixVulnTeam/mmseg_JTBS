@@ -2,7 +2,7 @@ _base_ = [
     '../_base_/models/pspnet_unet_s5-d16.py',
     '../_base_/datasets/CVC-ClinicDB.py',
     '../_base_/default_runtime.py',
-    '../_base_/schedules/schedule_640k.py'
+    '../_base_/schedules/schedule_320k.py'
 ]
 model = dict(
     decode_head=dict(loss_decode=[
